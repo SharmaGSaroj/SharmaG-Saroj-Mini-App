@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,600;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mini-Cooper</title>
+  </head>
+  <body>
+    <main id="app">
+      <h1 class="hidden">Mini-Cooper</h1>
+      <header>
+        <h2 class="hidden">Nav-bar</h2>
+        <div class="logo">
+          <img src="images/mini-cooper.svg" alt="" />
+        </div>
+        <nav class="nav-bar">
+          <ul class="menu">
+            <li class="nav-link">ELECTRIC</li>
+            <li class="nav-link">3 DOOR</li>
+            <li class="nav-link">5 DOOR</li>
+            <li class="nav-link">COUNTRYMAN</li>
+            <li class="nav-link">CONVERTIBLE</li>
+            <li class="nav-link">JCW</li>
+          </ul>
+        </nav>
+        <div class="button">
+          <button>Shop Now</button>
+
+          <button>Build&Price</button>
+        </div>
+
+        <div class="hamburgermenu">
+          <span>Menu</span>
+        </div>
+      </header>
+      <section class="herosection">
+        <div class="hero-image">
+          <img src="images/hero-image.jpg" alt="" />
+
+          <div class="hero-text">
+            <h2>WELCOME TO MINI. LET THE FUN BEGIN.</h2>
+            <br />
+            <p>
+              THE SPIRIT OF THE STREETS. Soon enough, people began to recognize
+              that the Mini was not merely a car. The unique combination of
+              classic British style in a low-cost, small size, fun and nimble
+              package came to symbolize independence and spontaneity.
+            </p>
+            <button class="herobtn">See More</button>
+          </div>
+        </div>
+      </section>
+      <nav id="carnav">
+        <h2 class="heading">SEE WHAT ALL THE FUN'S ABOUT.</h2>
+        <ul class="carmenu">
+          <thecarsection
+            @loadlbdata="loadLightbox"
+            v-for="hero in heroData"
+            :hero="hero"
+          ></thecarsection>
+        </ul>
+      </nav>
+      <thelightbox v-if="showLB" :hero="lbData"></thelightbox>
+      <section class="electric-photo">
+        <h2 class="hidden">herosection</h2>
+        <div class="electric">
+          <div class="electrictext">
+            <p class="electric-info">PLUG IN TO MINI ELECTRIC.</p>
+            <p class="test-drive">test drive the all-electric mini</p>
+          </div>
+          <div class="electricimage">
+            <img src="images/F56-BEV.png" alt="" srcset="" />
+          </div>
+        </div>
+      </section>
+      <section class="miniad">
+        <video playsinline controls>
+          <source
+            src="images/mini-video.mp4"
+            type="video/mp4"
+            media="(max-width:768px)"
+          />
+        </video>
+      </section>
+      <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+      <script src="js/main.js" type="module" defer></script>
+    </main>
+  </body>
+</html>

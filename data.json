@@ -1,0 +1,58 @@
+{
+    "CooperS5door": {
+        "name": "Cooper S 5-Door ",
+        "id": "CS5door",
+        "lbBG": "cooperS5door.png",
+        "biopic": "coopers5door.png",
+        "feature":["4 Cylinder 16 Valve Twin Power Turbo","189 hp @ 5,000-6,000 ","6-Speed Manual","233 km/h"],
+        "Price":"$40,756",
+        "Lease":"5.98% ",
+        "Finance":"4.99%"
+    },
+    "CooperSAll4": {
+        "name": "Cooper S ",
+        "id": "csa4",
+        "lbBG": "cooperS3door.png",
+        "biopic": "cooperS3door.png",
+        "feature":["4 Cylinder 16 Valve Twin Power Turbo","189 hp @ 5,000 - 6,000 ","4 Cylinder 189hp Twin Power Turbo Technology","233 km/h"],
+        "Price":"$39,756",
+        "Lease":"5.99% ",
+        "Finance":"4.99%"
+
+        
+        
+    },
+    "CooperSE3door": {
+        "name": "John Cooper Works 3Door",
+        "id": "se3door",
+        "lbBG": "Jcw3BG.png",
+        "biopic": "Jcw3.png",
+        "feature":["4 Cylinder 16 Valve Twin Power Turbo","228 hp @ 5,200 - 6,000 ","4 Cylinder 228hp Twin Power Turbo Technology","240 km/h"],
+        "Price":"$50,156",
+        "Lease":"5.99%",
+        "Finance":"4.99%"
+        
+    },
+    "JOHN COOPER WORKS ALL4": {
+        "name":"Cooper 3 Door ",
+        "id":"johncooperworkSUV",
+        "lbBG": "Cooper3door.png",
+        "biopic":"Cooper3door.png",
+        "feature":["4 Cylinder 16 Valve Twin Power Turbo","301 hp @ 5,000 - 6,250 ","8 Speed Sport Steptronic Automatic","240 km/h"],
+        "Price":"$54,156",
+        "Lease":"5.99% ",
+        "Finance":"4.99%"
+
+    },
+    "JOHN COOPER WORKS": {
+        "name":"JOHN COOPER WORKS",
+        "id":"JohncooperConvertible",
+        "lbBG": "conviretibleBG.png",
+        "biopic":"JohnCooperWorksCon.png",
+        "feature":["4 Cylinder 16 Valve Twin Scroll Turbo","228 hp @ 5,200 - 6,000","8 Speed Sport Steptronic Automatique","240 km/h"],
+        "Price":"$57,456",
+        "Lease":"5.99% ",
+        "Finance":"4.99%"
+    }
+   
+  }

@@ -1,0 +1,69 @@
+.lightbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly ;
+    margin-top: 3rem;
+    background-color: lightgray;
+   
+}
+.car-name{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem; 
+    margin-top: 1.5rem;
+    max-width: 1150px;
+}
+.car-price{
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem; 
+    margin-top: 1.5rem;
+    max-width: 1150px;   
+}
+.feature{
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.4rem; 
+    margin-top: 1.5rem;
+    max-width: 550px; 
+}
+.car-lease h4{
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top:-3rem ;
+    max-width: 250px;
+}
+.rating{
+    box-sizing: border-box;
+ 
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem; 
+    margin-top: 1.5rem;
+    max-width: 150px;
+
+}
+.car-finance h4{
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top:-3rem ;
+    max-width: 150px;
+}
+.Starting{
+    font-family: 'Kanit', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem; 
+    margin-top: 1.5rem;
+    max-width: 150px;   
+}

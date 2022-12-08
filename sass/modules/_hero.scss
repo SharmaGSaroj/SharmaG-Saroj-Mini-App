@@ -1,0 +1,131 @@
+.hero-image{
+  display: grid;
+  grid-column: span 1;
+}
+.hero-image > * {
+  grid-column: 1;
+  grid-row: 1;
+}
+.hero-image img{
+ width: 100%;
+}
+.hero-text{
+  top: 14%;
+  text-align: left;
+  padding: 0 15px;
+  max-width: 550px;
+}
+.hero-text h2{
+  color: white;
+  font-size: 2.2em;
+  font-weight: 500;
+  margin-block-start: 0.4em;
+  margin-block-end: 0.4em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.hero-text p{
+  color: white;
+  font-family: "mini_serif-bold",serif;
+  font-size: 1.4em;
+  font-weight: 500;
+  top: 14%;
+}
+/*------------ Hero Desktop ------------*/
+video{
+  width: 100%;
+ 
+}
+
+.electric{
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 4rem 1rem;
+  flex-direction: row;
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 80vh;
+  margin-top: -2rem;
+
+}
+.electrictext{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 615px;
+  width: 100%;
+
+  color: #2c292A;
+ 
+}
+.electric-info{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  word-wrap: break-word;
+  font-size: 2.5rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  text-align: left;
+  display: block;
+  position: relative;
+  min-width: 0;
+  color: #a4a4a4;
+  margin-bottom: 3rem;
+
+  
+}
+.miniad{
+  padding: 4rem 1rem;
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around; 
+}
+.miniadd video{
+  width: 100%;
+  
+  
+}
+
+
+.test-drive{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  word-wrap: break-word;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  text-align: left;
+  display: block;
+  position: relative;
+  min-width: 0;
+  color: black;
+}
+
+.electricimage{
+  position: relative;
+  max-width: 500px;
+  margin: 2rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  
+  
+}
+.electricimage img{
+ width: 500px;
+}

@@ -1,0 +1,59 @@
+#carnav{
+    text-align: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    
+}
+.carmenu{
+   list-style-type: none; 
+}
+.carmenu li  { 
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    height: 220px;
+    margin: 10px 8px;
+    text-align: left;
+    overflow: hidden;
+    gap: 20px;
+   
+}
+  
+.carmenu li h5 {
+    padding: 14px 8px; 
+    position: relative; 
+    z-index: 60; 
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .carmenu li p{
+    font-family: 'Kanit', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.heading{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    word-wrap: break-word;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    position: relative;
+    min-width: 0;
+    color: #a7a2a2;
+    margin-top: 3rem;
+}
